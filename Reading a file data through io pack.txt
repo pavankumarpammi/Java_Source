@@ -1,0 +1,14 @@
+Reading a file data through io package in java
+
+.File is a class with at least one parameter of eg. file name or true/fale for overwriting data ,directory
+
+.File("sample.txt",true) this command is used not to overwriting the data
+
+.File("dir") make directory using file.mkdir();
+
+.File(dir,"pw.txt") use to make file.createNewFile();
+
+writing methods:
+
+File file =new File(dir,"pw.txt");
+file.write( "string")  -->in write method we pass numerical int convert to ascii value
