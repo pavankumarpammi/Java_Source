@@ -11,6 +11,7 @@ public class SelectionSort {
             arr[i]=val;
         }
         //System.out.println("Given array is : ");
+        ob.close();
          int min_idx=0;
         for(int i=0;i<num;i++)
         {
