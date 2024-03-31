@@ -65,6 +65,19 @@ class LinkedList{
             temp.next=temp.next.next;
         }
     }
+    //reverse the linkedlist
+    public void reverseLinkedList(){
+        Node curr=head;
+        Node prev=null;
+        Node  next=null;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head=prev;
+    }
     public void  printList(){
         if(head == null)
         {
@@ -86,6 +99,8 @@ class LinkedList{
         llist.insertAtAny(llist.head.next, 0);
         llist.insertAtEnd(25);
         llist.printList();
-        
+        System.out.println();
+        llist.reverseLinkedList();
+        llist.printList();
     }
 }
