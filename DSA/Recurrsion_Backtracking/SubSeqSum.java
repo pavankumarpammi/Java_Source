@@ -1,3 +1,4 @@
+package Recurrsion_Backtracking;
 import java.util.*;
 
 public class SubSeqSum {
@@ -7,8 +8,9 @@ public class SubSeqSum {
         {
             if(sum==k){
                 System.out.println(lis);
-                return 1;
-            }
+                return 1;       //Bilnd mark structure for returing the count of subsequenc
+            }                   //That sum==k the return 1 to function call seq() at the end
+                                //each of iteration value stored in l and r 
             else  return 0;
         }
        
@@ -22,7 +24,7 @@ public class SubSeqSum {
     }
     public static void main(String[] args) {
         int arr[]={1,2,4,5,6,1};
-        System.out.println(seq(0, arr,new ArrayList<>(), 10, 0));
+        System.out.println(seq(0, arr,new ArrayList<>(),20 , 0));
 
     }
 }

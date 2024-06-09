@@ -1,3 +1,4 @@
+package Recurrsion_Backtracking;
 public class N_queen {
     public static void printSolution(int[][] board,int n)
     {
