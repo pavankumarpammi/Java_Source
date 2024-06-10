@@ -13,5 +13,6 @@ public class PowerOfnum_rec {
         long a=ob.nextInt();
         long b=ob.nextInt();
         System.out.println("Power of "+a+" to "+b+ " is :"+power(a, b));
+        ob.close();
     }
 }

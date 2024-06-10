@@ -31,5 +31,6 @@
         {
             System.out.print(arr[i]+" ");
         }
+        ob.close();
     }
 }

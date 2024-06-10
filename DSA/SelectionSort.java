@@ -31,6 +31,7 @@ public class SelectionSort {
         {
             System.out.print(arr[i]+" ");
         }
+        ob.close();
 
     }
 
