@@ -79,6 +79,6 @@ Node head;
         System.out.println();
         fe.removedup();
         fe.printList();
-       
+       ob.close();
     }
 }
